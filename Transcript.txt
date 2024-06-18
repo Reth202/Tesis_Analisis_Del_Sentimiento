@@ -1,0 +1,2130 @@
+Transcript
+May 13, 2024, 8:30PM
+
+ started transcription
+
+Elsie ACCIOLY   0:11
+Hello.
+
+Maylon Perez   0:13
+Hey, I'll see you, right?
+
+Nate ALLRED   0:15
+Hey.
+
+Maylon Perez   0:18
+How are you?
+
+Elsie ACCIOLY   0:19
+Yeah.
+Then yeah.
+
+Maylon Perez   0:21
+Winglet came on me.
+So let's wait.
+France going to join us from your side?
+Somebody else but going to join this meeting.
+
+Elsie ACCIOLY   0:33
+No, only us.
+
+Maylon Perez   0:35
+OK, let me see.
+Quran is coming to China's.
+I just send a message.
+Seems to be Christmastime and this argument.
+Alright, they looks like running is actually another meeting.
+He's this title seemed sending so.
+Probably he will be able to join some, at least not at this moment.
+So yeah, Grant told me that you have 8 your app.
+Your telemetry app he actually running, so you would like to, you know is I would like to share you like a dashboard where you can see some data and also how to check like extensions that were install it.
+Yeah.
+So I don't know how you want to start so I can share my screen to my dashboard.
+You can share your screen and you know I can walk you through all the process because we will have access to your to your actual portal.
+So yeah.
+
+Nate ALLRED   1:48
+OK, I can probably share my screen and give me one second to actually just get there real quick. Uh.
+
+Maylon Perez   2:24
+All right.
+So that's your PC two entry app.
+So how do you check climb?
+
+Nate ALLRED   2:27
+Yep.
+
+Maylon Perez   2:29
+Do you normally run the queries that you have or how exactly you check that?
+
+Nate ALLRED   2:35
+To check what's right was that.
+
+Maylon Perez   2:37
+I mean, how do you check telemetry?
+How do you grant the data?
+Do you have the KQL over it?
+
+Elsie ACCIOLY   2:41
+This is I think this is the the one that we are learning with you.
+
+Nate ALLRED   2:45
+Yeah.
+
+Maylon Perez   2:46
+Alright, alright, so so you you haven't used telemetry.
+I mean, it's actually connected, but you haven't used it.
+
+Nate ALLRED   2:51
+Correct.
+
+Elsie ACCIOLY   2:52
+No, we just don't know like last week.
+
+Maylon Perez   2:54
+All right, I got it.
+Perfect. OK.
+
+Elsie ACCIOLY   2:55
+Turn team recommended that and I think this is the point to learn with you.
+
+Maylon Perez   2:58
+Awesome.
+Not that's that's that's that's right.
+I wanna search for my screen.
+I wanna show you the dashboard that I use and then I can show you this dashboard and we can both connect that password using your telemetry app is OK.
+
+Elsie ACCIOLY   3:14
+Yep.
+
+Maylon Perez   3:16
+Perfect.
+Something that sort of mindset right now.
+So I have to build this task for with one of my colleagues or by all of my ex Microsoft colleagues to be honest and yeah and with this task for I can see different kind of there.
+For example, if I want to see like a PTDE usage and the graduates now select the the point of time, I can cost mine say OK from yesterday.
+From this time until you know today, let's say for this time better I can do that or I can say OK only for the last three hours or the last 12 hours of the left, they still left at all two days.
+I can use that time on here with this telemetry app.
+I can we can connect multiple in multiple tenant.
+So has I have multiple apps or multiple environment connected to the same Level 3 app.
+I just select the one that I used to check.
+I don't know what you're doing, so just do it.
+Want.
+
+Elsie ACCIOLY   4:25
+Is this out of the box?
+I've all tenants they have done or this is something that you you build.
+
+Maylon Perez   4:30
+No, no.
+Yeah, I mean like a in my side has I have the same telemetry app connected to multiple environments.
+I can see those environments in your side as you are going to be only connected your app to your environment you will you will only see your environment.
+
+Elsie ACCIOLY   4:48
+OK.
+
+Maylon Perez   4:49
+Yeah, I mean, to be honest, I don't know why the other apps are not populated right here.
+I know why.
+Sorry, I'm using the wrong useful and just go back here and use this to learn 3.
+Like that.
+Same thing.
+Alright.
+So that this is a dashboard which is a useful for me because you you you don't have to run any take your queries.
+So this task is these are connected with cake will very which are basically request to the telemetry.
+So again, if I want to see, for example the the extensions usage, so you select let's say the time will be for the last two days, which app are gonna use this case the this one you said.
+Remember, inside something I don't have from here.
+And then I'm gonna say, but environment always put that in your view where I have these installed.
+And then I can use both more fields.
+If you can see like I can see here that I style at PTFE called MSFT P Today, which is 2024, May 13 at this time.
+So I basically I install this app just for test today and I can see different things like here in this taskbook I already have like for the time frame of two days beat the tenant ID which is the one that I select in your case.
+Again, you will only have one which is your tenant ID.
+The environment has, you know, with that one thing you can have one product and three samples if you will have to eliminate connect to the three sandboxes as well.
+You will see like the three the production it with the three samples here.
+So you can select which one and you can use the other filters so.
+
+Elsie ACCIOLY   6:59
+Yeah.
+So I I'm so sorry.
+Umm, my long and maybe you know, I'm not familiar with that.
+I'm I think I'm still one step behind.
+How do I access that?
+
+Maylon Perez   7:14
+Alright.
+Yeah, yeah, sure.
+I'm gonna.
+You know, I'm gonna show you all this.
+So this taskbar I will chat to you and then I will walk you through how to install it or and how to connect it to your application.
+This something that I will do it.
+
+Elsie ACCIOLY   7:28
+Ohh sounds great. OK.
+
+Maylon Perez   7:29
+Yeah.
+Yeah.
+And you have basically another if you know what telemetry is.
+Fat, basically telemetry are all the traces and all the records that our collective A by, you know, by Microsoft in this case.
+Like if you for example uninstall something if you are upgrading vitamin.
+If you delete a news or something like that, all these records, all these traces are recorded and using telemetry you can access to those threads.
+To be honest, it's not like a super transparent to read sometime it's super hard to understand light and the data because data is not showing like a you know in English super clear.
+It's not like a text to read, but if you use them and you if you get more familiar with telemetry, then you it it's gonna be easier to, you know, use the use the language thing which is super useful.
+I normally use telemetry to check for example performance if a, for example, let's let's think that the customer page is is running super slow and when every time I open on the try try to open the customer list it takes about 25 seconds.
+For example, for using telemetry I can go and filter by that time, like if I may a test.
+Right now I can say like for the last five minutes I can filter by this page and then I wanna see like this this time.
+Is and then I can see.
+I can try to track what is causing this performance.
+Issues, for example, so that's basically currently is basically all the traces of are recorded into the system.
+
+Elsie ACCIOLY   9:27
+So the the dashboard that you you have this screen right is a monitoring tool that you created and you are planning to deploy in our environment.
+
+Maylon Perez   9:33
+Yeah, yeah.
+
+Elsie ACCIOLY   9:40
+Is that right?
+
+Maylon Perez   9:40
+Alright, alright, that's correct.
+Yeah, that, this, these are a dashboard I created with my one of my ex Microsoft colleagues.
+
+Elsie ACCIOLY   9:41
+OK, good.
+
+Maylon Perez   9:47
+And yeah, I connect to my to my telemetry app.
+So by gonna do is show you the password.
+Install it on your side and then connect it to your application so you can see your data.
+
+Elsie ACCIOLY   10:01
+Got it.
+
+Maylon Perez   10:02
+Then that that's.
+
+Elsie ACCIOLY   10:02
+And and the way that you build then is like.
+This is my interface I should come here and see it.
+But you didn't create any emails when you see something off or wrong.
+
+Maylon Perez   10:17
+A like to send notifications something like that, but then you mean.
+
+Elsie ACCIOLY   10:22
+Yeah.
+So for example you know.
+As you said you you can monitor many things right?
+And and not always the logs from Microsoft.
+
+Maylon Perez   10:30
+Yeah.
+
+Elsie ACCIOLY   10:32
+That's so clear.
+So I don't know.
+So for example, if any operation fail or you see any tables locked, that is some logs that you can recognize and instead of waiting for someone to come here and look at the problem and monitor, you know in in the interface it it can report through a mail like send email to Nate and say hey Nate, the log shows something.
+
+Maylon Perez   10:49
+Correct.
+
+Elsie ACCIOLY   10:57
+It looks off.
+Something's wrong.
+So just come to the.
+The app right and then see more details and do you have that awesome.
+
+Maylon Perez   11:04
+Yeah.
+Yeah, I'm yeah.
+No, like, I mean, no, it a OK, we did passport as you said.
+If there is some deadlocks or some table locks and that you of course realize that something is is blocking your site system, you can go to the taskbar and check the limit.
+
+Elsie ACCIOLY   11:16
+Yes, so.
+
+Maylon Perez   11:23
+So if you are saying like if I mean if your question is that this dashboard can send you like notifications when a deadlock appears not.
+
+Elsie ACCIOLY   11:31
+Yes.
+
+Maylon Perez   11:33
+That is when I don't know if we can do that to be honest, but yeah, basically this is only show showing data from telemetry.
+
+Elsie ACCIOLY   11:34
+OK.
+Uh-huh.
+OK.
+
+Maylon Perez   11:42
+And these are different, you know, pages that you know to see different thing.
+You can create more.
+You can also use a KQL queries so a big way to access that telemetry is using KQL various.
+It's like a SQL like a, you know, a database request, but that this is OK QL from good stock to you already something like I don't remember deal, but yeah, sure.
+
+Elsie ACCIOLY   11:59
+Uh-huh.
+Yeah. Mm-hmm.
+
+Nate ALLRED   12:06
+Can I show something real quick just so I can ask a question just built into the application insights application?
+
+Elsie ACCIOLY   12:07
+Yeah.
+
+Nate ALLRED   12:16
+There's actually just even here.
+There's like a decent amount of accessible telemetry regarding errors and performance for all users and what pages are, you know, taking a long time.
+Stuff like that is basically what you're looking at.
+There is just more applicable data than it is even showing up here.
+
+Maylon Perez   12:34
+Umm yeah.
+
+Elsie ACCIOLY   12:34
+Yeah.
+Hey created he created a dashboard to gather all this information and see what is important like and JourneyTEAM saying like hey this is what I recommend that is important for assist admin to do.
+
+Nate ALLRED   12:39
+OK.
+
+Elsie ACCIOLY   12:47
+Yes.
+
+Nate ALLRED   12:47
+Sure. OK.
+
+Maylon Perez   12:48
+Yeah, yeah, yeah, yeah.
+
+Elsie ACCIOLY   12:48
+Is that organizing the data as we wanna see, right?
+
+Maylon Perez   12:52
+Correct.
+Correct.
+Yeah, I mean like a for sure.
+
+Elsie ACCIOLY   12:54
+But we could use that as well.
+Yes, Nate, it's just like is like it just with their expertise, they're saying you should look to these.
+
+Nate ALLRED   12:57
+OK.
+Yeah, these were just some of the built in insights and then the the longer looking at just kind of more more built out.
+
+Elsie ACCIOLY   13:08
+Yeah.
+Yeah, that's the reason I ask.
+Like, hey, do you have any notifications that would be cool, right?
+Like when it's something critical and then send an email to you so you don't need to spend time here looking if everything is OK and not react to a user.
+
+Nate ALLRED   13:21
+Sure.
+
+Elsie ACCIOLY   13:23
+Right.
+Because the the goal I I told you about that at the monitoring that we wanna go at that point that we wanna know the problems in our system before the users tell us.
+
+Nate ALLRED   13:30
+Yep.
+
+Elsie ACCIOLY   13:33
+Right.
+So monitoring it's a huge beasts that we wanna know what's going on before I use to say, hey, I have a problem.
+I have a problem with performance.
+I have, you know, we shouldn't know first so, but it is the direction that we wanna go anyway and and.
+
+Maylon Perez   13:43
+Umm.
+
+Nate ALLRED   13:44
+Sure.
+Yep.
+
+Maylon Perez   13:50
+I mean we we normally recommend and we always recommend customer to have telemetry because it's you, it's useful for us like for example, if you report like a some slowness or some performance issue or you want to see or you want to know who or when an application what was updated or was installed admit this is not something that is showing been central but using telemetry we in your activities because of that.
+So I can go to your telemetry dashboard for.
+Yeah, in this case I cannot, because I mean, I don't have access to your telemetry.
+But yeah, I can say, hey, go to telemetry and check that and then we can get into a call and then I can walk you through what pages I would like to see or something like that.
+
+Elsie ACCIOLY   14:28
+Mm-hmm.
+
+Maylon Perez   14:35
+And in addition about your comments or you just a quick thing a you talk about you know notifications if some something happened in in BC admin portal, you can create, you mean you can insert your email of the email address that will send notifications when and now that you exceeds or when there is something like you know like critical if you go to the business central admin portal there is I cannot notification a pack a pack and then you can use you know set your user are email.
+
+Elsie ACCIOLY   14:35
+Yeah.
+Mm-hmm.
+
+Nate ALLRED   15:10
+Yeah.
+I think the I think we have some of that stuff set up.
+I think Elsie is more just like, more like user experience type stuff.
+Like it's not stuff is down, but stuff is slow.
+
+Maylon Perez   15:18
+Umm.
+
+Nate ALLRED   15:20
+That kind of thing.
+
+Maylon Perez   15:22
+OK.
+It's just notification recipients.
+2nd right there.
+Yeah, you can.
+You know you can create new a new for you or who want to be not not notified if something happened pretty well.
+
+Nate ALLRED   15:37
+Yeah.
+
+Elsie ACCIOLY   15:40
+But this is this is only critical, right?
+
+Maylon Perez   15:40
+Alright.
+
+Elsie ACCIOLY   15:42
+The notification I understood like this is when something is really kind of, yeah, but the the app that you built my and that you view tell us how to sell on our tenant and everything is something that can help us daily base to see the performance of the system.
+
+Nate ALLRED   15:42
+Yes.
+
+Maylon Perez   15:47
+Umm.
+
+Elsie ACCIOLY   16:00
+How is everything going right?
+
+Maylon Perez   16:02
+Alright, that's correct.
+Yes, you can.
+See for example performance here by Internet screen.
+
+Elsie ACCIOLY   16:04
+OK.
+
+Maylon Perez   16:08
+But yeah, you can see by my page you can see like for example sometimes happen that I web service is failing.
+
+Elsie ACCIOLY   16:08
+Yeah. Thank.
+
+Nate ALLRED   16:08
+Yeah.
+
+Maylon Perez   16:15
+You can see what web which web services that and that those kind of things.
+
+Elsie ACCIOLY   16:16
+Awesome.
+Yeah.
+Thank you for the context.
+Sorry that I interrupt you to ask then.
+
+Maylon Perez   16:22
+1st and not no worries, no worries.
+Alright so.
+
+Elsie ACCIOLY   16:25
+OK, now we are on the same page, yeah.
+
+Maylon Perez   16:27
+And if I got share you the dashboard in and I'm gonna give you the steps, let me see if I can upload.
+You know, teams.
+If not, I have to probably send it to you.
+
+Elsie ACCIOLY   16:40
+Are you sharing it again your screen?
+
+Maylon Perez   16:42
+No, no, not yet.
+Let me see.
+I I'm not sure for the dashboard I need to send it to you, but let me see if I can change it to teams.
+Hans.
+See, it's gonna be sent.
+Alright, Nate, can you charge you with me back?
+And I can walk you through the process through upload the dashboard and use it.
+
+Nate ALLRED   17:09
+Yeah, one SEC.
+Let me download this Jason.
+
+Maylon Perez   17:15
+And I also show you a link where this task promote be uploaded.
+
+Nate ALLRED   17:23
+Alright.
+
+Maylon Perez   17:36
+Alright, perfect.
+So if you see like in the top left side, it says new dashboard and then there is like a drop down arrow.
+Yeah please.
+
+Elsie ACCIOLY   17:45
+This is this is by environment or this is by user.
+
+Maylon Perez   17:49
+This is by user.
+Let me like, once we update it, you can just share the the the dashboard.
+Let me see if you can check the link.
+No, we need to check the casserole.
+
+Elsie ACCIOLY   18:00
+Yeah.
+So both of us, we we should do the same or as soon as Nate uh creates the dashboard saying I can see too.
+
+Maylon Perez   18:11
+Yeah.
+I mean a just who will be asking telemetry.
+We only be both of you or there will be more users.
+
+Nate ALLRED   18:20
+I think it'd be more at least last two.
+
+Maylon Perez   18:25
+Alright, so maybe we can we can record this part of this session and I you know you can replicate this same process to the address of the users, alright.
+
+Elsie ACCIOLY   18:32
+OK, it's OK.
+It's per user, right?
+So we need to to have these actions for per user that needs to see it sounds good.
+
+Maylon Perez   18:39
+Or correct.
+Let me start, it's already recording.
+I didn't know, I mean anyway.
+
+Morgan Best   18:46
+Yeah, Maylon.
+
+Elsie ACCIOLY   18:46
+Yeah, it was.
+
+Morgan Best   18:47
+I already said it to record.
+
+Elsie ACCIOLY   18:47
+It was before, yeah.
+
+Morgan Best   18:48
+So you're good.
+
+Maylon Perez   18:49
+Alright, thank you.
+Alright, so please click on the drop down arrow and hit import file which is the first step we need to import the dashboard and dangerous for the one that is sure to you.
+I think this task is can you see partially.
+
+Nate ALLRED   19:01
+Yeah, one SEC.
+
+Maylon Perez   19:05
+He.
+Yeah, he Jason this.
+Yeah, he don't he don't create.
+So you will see like 1000 of error right now because it's it's in in the you know in the background is connected to my to my telemetry app.
+So now we need to connect to your telemetry app.
+So please click on the settings in the yeah right there and now it's down here.
+
+Nate ALLRED   19:29
+OK.
+
+Maylon Perez   19:38
+Ah, did you have like a 3 cats?
+Let me see if Support big.
+May see something different in my side.
+Nothing else changed.
+Can you click on the settings back please?
+I'm drop down arrow.
+And dance.
+How you didn't see like the data source, can you?
+It's actually editing.
+That's correct.
+Can you click in the in the is you see the editing like have the pencil in the left side.
+Yeah, let's change back to view.
+Uh-huh.
+And then keep this car changes to the matter.
+Umm, interesting.
+Alright, please try to import it back.
+Each.
+And look at the side.
+No.
+
+Nate ALLRED   21:08
+What's up?
+
+Maylon Perez   21:09
+Yeah, we have to do is to change the data source.
+Add this when you click on settings.
+You don't see the data source populated.
+
+Elsie ACCIOLY   21:21
+Try edit the query.
+Good.
+Removed it.
+Yeah, Cole resource edit query to see you.
+See you see the option.
+Did you see?
+
+Nate ALLRED   21:31
+Ah.
+
+Elsie ACCIOLY   21:33
+That is added furry.
+
+Nate ALLRED   21:35
+Oh yeah, I think that's probably just the the Jason file.
+
+Maylon Perez   21:37
+Yeah.
+
+Nate ALLRED   21:37
+So I think we can just manually do it from here, right?
+
+Maylon Perez   21:38
+Yeah, no.
+
+Nate ALLRED   21:42
+This data source.
+
+Maylon Perez   21:44
+No, because we need no we we need to uh from the data source we need to connect to the to to your subscription ID and you're telling, yeah.
+
+Elsie ACCIOLY   21:51
+Inside it's inside me.
+
+Maylon Perez   21:55
+Yeah, just keep the accept the the X.
+Just go back.
+Yeah.
+OK.
+And now try to go back to settings to see if you know see the data source no.
+Interesting.
+
+Nate ALLRED   22:14
+Sources right here.
+
+Maylon Perez   22:15
+I look in there.
+Yeah, which is, this is change.
+Yeah, I I don't know what happened.
+Yeah.
+There you go.
+Now please click on the pencil and then here.
+Let me see need to change the URL and.
+Yeah, you need to ship.
+
+Elsie ACCIOLY   22:40
+The the idea, the subscriptions that changed.
+
+Maylon Perez   22:44
+Yeah, we we need to go back to the to the actual portal and then see the subscription ID, which is actually writer.
+And yeah, it's it's it's a good work, correct.
+
+Elsie ACCIOLY   22:54
+99C Yeah, sent to me here and they too in the chat.
+
+Nate ALLRED   23:00
+You're not the full URL or just the ID.
+
+Elsie ACCIOLY   23:02
+Just I think we just need to change the subscription ID in the URL that is same.
+
+Maylon Perez   23:06
+And yeah, no, this is Haley and also the resource group we need to change both things.
+
+Nate ALLRED   23:08
+OK.
+OK.
+
+Maylon Perez   23:13
+At first they subscription ID call to you.
+
+Elsie ACCIOLY   23:13
+OK.
+Yeah.
+Let me get that as well.
+
+Maylon Perez   23:18
+Uh-huh.
+And then instead of these scripting ID just put juice.
+
+Elsie ACCIOLY   23:21
+Oops.
+Oops.
+
+Maylon Perez   23:26
+No, it's right there.
+
+Elsie ACCIOLY   23:27
+And what is the group?
+
+Nate ALLRED   23:28
+So.
+
+Maylon Perez   23:30
+I just.
+
+Nate ALLRED   23:31
+The the group is.
+
+Maylon Perez   23:31
+Yeah, it's.
+
+Elsie ACCIOLY   23:34
+Resource group, right?
+
+Nate ALLRED   23:36
+Yeah, it's.
+
+Maylon Perez   23:36
+Yeah, business central.
+
+Nate ALLRED   23:37
+Yeah, business central right there.
+
+Elsie ACCIOLY   23:40
+Which one business, but we already have a business central.
+
+Nate ALLRED   23:43
+Well, it might be the same.
+Honestly, it's pretty generic name.
+
+Maylon Perez   23:45
+Yeah, yeah, yeah.
+I mean umm alright.
+And and resource group.
+This is central and now busy application is a. How?
+How is it called?
+Your side is not busy.
+Application is I think it's called something different.
+
+Elsie ACCIOLY   24:02
+About OK, it was busy application right?
+
+Nate ALLRED   24:02
+It's.
+Well, that's the resource name, but the application is is this.
+
+Maylon Perez   24:05
+At now there you go.
+At that time the correct.
+
+Nate ALLRED   24:13
+Now that's the last right there.
+
+Maylon Perez   24:15
+Yes.
+
+Nate ALLRED   24:16
+OK.
+
+Elsie ACCIOLY   24:16
+Business central telemetry.
+
+Maylon Perez   24:17
+Now correct.
+
+Nate ALLRED   24:18
+Yeah, so.
+
+Maylon Perez   24:19
+That's a high call, not the connect to see if there was able to be connected.
+
+Elsie ACCIOLY   24:24
+It could I.
+
+Maylon Perez   24:26
+And it works when $20 closer.
+
+Nate ALLRED   24:28
+Umm.
+
+Maylon Perez   24:30
+OK, there is this something.
+
+Nate ALLRED   24:32
+There's.
+
+Maylon Perez   24:34
+Can you list it in the in?
+No, it's actually now, let me see.
+Just quick resource group in central.
+Ohh fighters like there.
+No2.
+It's been central altogether, which is separate with like space in your side and the resource group.
+
+Elsie ACCIOLY   24:59
+I think there was a space.
+
+Nate ALLRED   25:00
+Yeah, I added the space, now it's a.
+
+Elsie ACCIOLY   25:03
+But is not.
+You need to do the 10%.
+
+Nate ALLRED   25:07
+It it all my automatically put that in there.
+
+Elsie ACCIOLY   25:07
+Did you do?
+Are you there? Yeah.
+
+Nate ALLRED   25:10
+Yeah.
+So it's now, it's just the resource that doesn't business central.
+Now it's just the application name.
+It seems like it's not being found or the.
+Think that's?
+I don't need to connect to the workspace or anything, right?
+It's just the resource group and the the app name.
+
+Maylon Perez   25:46
+Yeah, because it research.
+Look the app name.
+
+Nate ALLRED   25:50
+Hmm.
+
+Maylon Perez   25:52
+It's not trying to.
+I think it's because maybe this doesn't like the.
+You know the Lang space.
+That's why I think.
+
+Elsie ACCIOLY   26:02
+And who created that resource group?
+It was us with the space, yeah.
+
+Nate ALLRED   26:04
+There's me.
+Well, yeah, let me let me, let me go to dim view.
+Just make sure that's the actual.
+Ohh underscore.
+
+Elsie ACCIOLY   26:21
+Underscore, right?
+Yeah.
+
+Nate ALLRED   26:22
+Yeah, I don't know why didn't show there.
+
+Elsie ACCIOLY   26:22
+Is it like it's OK?
+Yeah, we don't like space.
+So that's the reason I ask Devloper is hate the you know, space.
+
+Nate ALLRED   26:30
+Let's do 2.
+
+Maylon Perez   26:34
+There you go.
+So now in the database you can see it is now connected, has been sent to select which is.
+It means that if it recognized the app so now it will apply.
+Alright, so now everything seems to be connected and we before.
+
+Elsie ACCIOLY   26:50
+Well.
+What?
+What did they do wrong?
+
+Nate ALLRED   26:57
+I'll send you the.
+
+Elsie ACCIOLY   26:57
+Can you send me here?
+
+Nate ALLRED   26:58
+Yeah, I'll just send you the and and maybe it's not like maybe you're.
+
+Elsie ACCIOLY   27:02
+Not authorized.
+
+Maylon Perez   27:02
+I mean, actually you don't have to do that step.
+Elsie, as far as a nature you dashboard, this dashboard will contain the same cluster.
+
+Elsie ACCIOLY   27:07
+To.
+Yeah.
+I think I have.
+I think I have permission issue.
+
+Nate ALLRED   27:18
+Umm do you?
+Are using your.
+
+Elsie ACCIOLY   27:19
+Authorized to access resource like.
+
+Nate ALLRED   27:21
+Are you logged into this as your admin account?
+
+Elsie ACCIOLY   27:24
+I shoot and then suddenly I'm not.
+
+Nate ALLRED   27:27
+OK.
+
+Maylon Perez   27:28
+And also they make make sure that LLC is part of of the of the application that you build.
+
+Elsie ACCIOLY   27:30
+I love you.
+I have my wrong he was right.
+
+Nate ALLRED   27:34
+OK.
+
+Elsie ACCIOLY   27:36
+I was with my wrong account.
+I'm sorry I apologize.
+And and he knows me and is the first question, like Elsie.
+True, right?
+I know.
+
+Maylon Perez   27:46
+It's be.
+
+Elsie ACCIOLY   27:46
+And he even told me use different browsers.
+
+Maylon Perez   27:50
+Before doing anything, please keep on safe, because if you don't save it, then yeah, maybe you need to do on safe.
+
+Elsie ACCIOLY   27:53
+Yeah, right.
+I'm good, yes.
+
+Maylon Perez   28:01
+Yeah, please click on save.
+Yeah.
+Now you can.
+Yeah, I save it now.
+You can switch back instead of editing, click on view it.
+So in the top right, just click on, view it and now your app is actually connected so you don't see the pages that that if you click on the right either intelligent in the left side says pages there is like a arrow going to do it right just left or left.
+Yeah.
+Now don't.
+
+Nate ALLRED   28:34
+I'm so blind.
+Ohh there we go.
+
+Maylon Perez   28:35
+Yeah.
+Yeah.
+Just there you go.
+Up.
+So that's when they open it up.
+That's when that you really yes.
+
+Nate ALLRED   28:41
+Hang on.
+Sorry, this is me clicking around OK.
+
+Maylon Perez   28:44
+No worries.
+There you go.
+So you will see all these.
+I mean, all these dash for I mean all these pages from this dashboard.
+And if you wanna do something specific, yeah, you click on there as and then then click on or last three hours, 12 hours.
+It was in the in the so they can ID which is the AAD tenant.
+Yeah.
+There you go.
+Click and yours.
+Please correct and then you will see all this.
+This is something different, but you're not selecting the.
+This is average, yeah.
+
+Nate ALLRED   29:20
+That's very bad.
+
+Maylon Perez   29:20
+So let's see.
+Yeah, that's performed, right? Yeah.
+This to be something with performance.
+We live with these pages and reports.
+Yeah.
+So if you want to see, for example, the PT installed, just go back to the pages.
+I don't know why it's hide, but yeah, in I'll use for example PT usage.
+
+Nate ALLRED   29:47
+Yeah.
+
+Maylon Perez   29:51
+This is the most app right app there you so you can see like if I mean there is any accent to has been updated or stalling the last 12 hours.
+If you, you know, give more time range like 3 to 7 days something like that.
+Yeah, you can see more data right there.
+You see the annexation call.
+
+Nate ALLRED   30:13
+OK.
+
+Maylon Perez   30:17
+SWH roots was installed on on May 10th.
+For example, it says that means it has all the profits was installed on the production environment and yeah.
+
+Nate ALLRED   30:26
+OK.
+But this and just curious this one is not logging who actually initiated that right?
+
+Maylon Perez   30:37
+Yeah, it's, I mean you it's not recorded who created now you I mean like we can try to using real query build more columns.
+But yeah, like at for the default Italy have those objects.
+
+Nate ALLRED   30:50
+OK.
+
+Elsie ACCIOLY   30:54
+And the word do you see the query?
+
+Maylon Perez   30:57
+Yeah, if you click on the right to the right, if you just go to the right in the three dots right there, there is like A3 parts and then view query.
+This is all big KQL query that is running in the background for this dashboard so it has the filters.
+
+Elsie ACCIOLY   31:13
+Awesome.
+
+Maylon Perez   31:14
+Yeah.
+Yeah.
+
+Elsie ACCIOLY   31:16
+That's great.
+
+Maylon Perez   31:17
+So if you are going to Caldwell queries you can.
+You know you do magic with that, or you can either you know, just use take this cake varies in a clean new query and then you can run those queries well.
+
+Elsie ACCIOLY   31:30
+Yeah, that's great.
+
+Nate ALLRED   31:31
+OK.
+
+Maylon Perez   31:33
+Yeah.
+And now what you have to do is to save or bookmark this pages, because then you need to start over again.
+So just bookmark the page.
+
+Nate ALLRED   31:43
+OK.
+So this this is gonna be maybe too specific of a question and that and it's OK if you don't know the we've had some people recently with some some getting some page lockout errors.
+Where would we like begin to start looking into what is causing those?
+
+Maylon Perez   32:05
+Yeah.
+If we have like the specific air, I mean if this specific error is related with a page.
+For example, if you were trying to, I don't know if create a vendor, you can filter a, just go to identity to the pages.
+And if you see, let me remain remind there is space performance, we can you you can use that, huh?
+And you can see and you can filter by the object number.
+So for example vendor let me see what is the page for vendor.
+If you have been sent and you can go back to being central.
+
+Nate ALLRED   32:50
+Ohh always goes wrong one.
+
+Grant Brimhall   32:56
+Hi everyone.
+
+Maylon Perez   32:56
+Yeah.
+
+Grant Brimhall   32:57
+This is Grant.
+I apologize, I've been fighting a production issue and.
+I'm sorry to be late.
+
+Maylon Perez   33:04
+That's fine.
+
+Elsie ACCIOLY   33:04
+No worries, yeah.
+
+Morgan Best   33:06
+We're glad to have you, Grant.
+
+Elsie ACCIOLY   33:08
+Yeah.
+
+Grant Brimhall   33:10
+While Maylon's the main show, so I don't know how to do the things that he's showing you so.
+
+Maylon Perez   33:16
+Yeah, we'll figure it out.
+So yeah, for example, maybe if you want to see like if these deadlocks or if this performance issues our face on the vendor page, you can go to vendor for example and using the pacing inspection you can realize which is the page number.
+So if you go to the the question mark in the top right corner, yeah, there you go.
+Yeah, you can see it.
+Depender is page 27.
+You can use that on the filter.
+So go to performance and then filter by page 27 the option number.
+You can do that?
+Yeah, just click on the on the on the object number, you see the hamburger icon or the two lines.
+
+Elsie ACCIOLY   33:57
+The third column.
+
+Maylon Perez   33:58
+Yeah.
+There you go.
+You can there and then there is like a thesecond right up and this the filter icon it the second icon.
+So there you go and then you can type 27.
+It's gonna filter the all the the, the the pages or the performing quest by this specific table.
+So you can see like if there is something like you know page a performance issue.
+You can see all these drop down right there.
+
+Nate ALLRED   34:28
+OK.
+Can I give you maybe?
+
+Maylon Perez   34:29
+I've also you for free.
+
+Nate ALLRED   34:30
+Sorry, go ahead.
+
+Maylon Perez   34:32
+No, you can go ahead.
+
+Nate ALLRED   34:33
+Uh, can I give you maybe an example of 1 specific error?
+Somebody soft somewhat recently and maybe we could just look at that.
+
+Maylon Perez   34:40
+So that's fine.
+
+Elsie ACCIOLY   34:40
+It would be great.
+
+Nate ALLRED   34:42
+OK, let me just copy the error real quick.
+I'll just send it in the chat so we can you can take a look at it.
+That's me.
+Know if that's not really readable or.
+
+Maylon Perez   34:57
+Yeah.
+Let me see if we can try to check that by the way.
+Yeah.
+Let me see where we can see that because there is some.
+I mean, there is a case that also tracked the error message.
+Just need to remind where.
+
+Elsie ACCIOLY   35:09
+There there was today they.
+
+Nate ALLRED   35:11
+This was on Friday.
+Maybe Friday.
+This is the last time last time I'd seen a very specific error message.
+
+Elsie ACCIOLY   35:21
+OK.
+
+Maylon Perez   35:23
+And see if we can try the error message.
+And you know where this.
+I mean, let me see if we can see it from Peachtree.
+Once done, taking says.
+
+Elsie ACCIOLY   35:35
+Maylon.
+What?
+What is that user telemetry ID?
+This is something we can use.
+
+Maylon Perez   35:43
+A wish field.
+
+Nate ALLRED   35:45
+It's in the error code.
+I think it's the from what I could tell that each user is randomly signed an ID for telemetry.
+
+Maylon Perez   35:54
+Umm.
+
+Nate ALLRED   35:55
+And then you could probably filter that telemetry ID to it's.
+
+Elsie ACCIOLY   35:57
+By the.
+
+Nate ALLRED   35:59
+I think that's just a user.
+
+Maylon Perez   36:02
+Yeah.
+Yeah.
+OK, the user telemetry, the yes, that's the user and if the fields actually there like if you open it up for example the let me see this column has been telling me.
+See, but it will pass.
+I think that there was like a page that you can bring up all the air mass.
+I mean, all the edges really error message.
+
+Nate ALLRED   36:21
+Hey.
+
+Maylon Perez   36:23
+Let me check.
+It's called.
+No worries.
+No, it's not that one.
+Did you?
+I mean for child you can use a.
+You can filter that using KQL queries that that story diable that's on the dashboard.
+Let me see those.
+I think we have something to error message.
+It's.
+Some parents becomes.
+And you message.
+I need to check that I need to be able to review again that the dashboard to see if I can fax something using the error message.
+Actually, I cannot remind I I I really think that there was something that we can check that, but I cannot remind piece, be honest I guess so a if again I would suggest to filter by the page always like if the this performance or if this error message is face in a specific a table then you can use that table ID or tag table number to filter any enemy like the performance features has 3D before we depend on page.
+
+Nate ALLRED   37:57
+OK.
+
+Maylon Perez   38:30
+Yeah.
+Telemetry again won't tell you like anything in English would say, like it's it's failing because this it will show you the data like you can see it will choose like average you it will show you like how?
+I mean the average, for example, that a page is taking, you can see like that that page have like performance is super slow then you can with that page or with that specific time you can say or filter if there is like a a third party extension in policing ball on that time for example.
+
+Nate ALLRED   38:46
+Uh-huh.
+
+Elsie ACCIOLY   39:02
+Can you can you filter page 51 no.
+
+Nate ALLRED   39:18
+I think.
+
+Elsie ACCIOLY   39:18
+Just checking the 51 is invoice right?
+Can we see here what is the 51 Maylon?
+Ohh, we need to go to BC.
+Check and and come back.
+
+Maylon Perez   39:32
+Know from here like.
+Yeah, we need to go to visit, to to business central to check.
+Because I mean here doesn't say which is the page with 51 page.
+
+Elsie ACCIOLY   39:41
+Yeah, like, do you know how to instead of going to the the the, the the page, can you search for 51 and see who is?
+
+Nate ALLRED   39:47
+For.
+Umm, I know they've seen that somewhere.
+You feel like you can go to like a list of all the pages and then it shows you the the actual IDs of them.
+
+Maylon Perez   39:57
+Do if you want to see, you can also use configuration packages and just type 51, which is I mean to see what page is really let's go to configuration packages.
+
+Nate ALLRED   40:06
+You can go to configuration packages.
+
+Maylon Perez   40:09
+I mean this is the way that I I I don't know if you Grant have like a different way to check like in this case what keeps you one pages.
+You can use click new.
+
+Grant Brimhall   40:22
+You you're trying to figure out that there's a page that people use that's commonly slow.
+
+Elsie ACCIOLY   40:26
+Where is the.
+
+Grant Brimhall   40:30
+And you want to be able to see if it shows some telemetry data that you can troubleshoot to see why it's slow.
+
+Elsie ACCIOLY   40:37
+Yeah.
+Did you see the message?
+Not Nate.
+Nate sent here the chain.
+
+Grant Brimhall   40:41
+Yeah.
+
+Elsie ACCIOLY   40:42
+This is a real problem that we got on Friday and we are trying to learn like how is the best way to troubleshoot.
+
+Nate ALLRED   40:45
+It.
+
+Elsie ACCIOLY   40:49
+Right, so Maylon was explained that you do by page.
+So you can go to BC, find a page and then you can filter.
+
+Grant Brimhall   40:53
+Mm-hmm.
+
+Elsie ACCIOLY   40:57
+So I was asking, hey, how do I know if I have a?
+Because here in the message it says page 51.
+So.
+
+Grant Brimhall   41:09
+Actually.
+
+Elsie ACCIOLY   41:10
+Right.
+And it was like, OK, what is the list of the the the page, there is a way that you go and see, you know, all the patient, what it means it says purchase invoice page 51.
+I just wanna track if that's true and then he was explain how we can do that through here.
+
+Grant Brimhall   41:25
+Umm OK yeah.
+
+Nate ALLRED   41:30
+You're saying click new on here.
+
+Maylon Perez   41:32
+Yep, you can just new to this like a test or something.
+Test three was Martin Angeles class or whatever of fifth.
+Page 51 you can type any any code.
+And then yeah, that's that's like the the, the, the completion, it's a make, they just type again page in the table ID yeah you need to type 51 this you should camera user dusty page.
+Ohh sorry, dusty panel yes.
+
+Nate ALLRED   42:06
+OK, that's weird. Uh.
+He thought page 51, Elsie.
+
+Elsie ACCIOLY   42:15
+Yeah.
+Beige, right?
+But this is the table right?
+
+Maylon Perez   42:18
+That's the table.
+
+Nate ALLRED   42:18
+That's true, yeah.
+
+Maylon Perez   42:20
+Yeah, it it's not the case.
+Let let's try by going to the purchase invoices that call, right? Yeah.
+
+Elsie ACCIOLY   42:26
+Invoice.
+Yeah, it's called purchasing invoice.
+
+Maylon Perez   42:31
+Yeah.
+Let's see if that's the page that I don't know.
+If it says page 51 because the work is seen is no, it's different.
+
+Elsie ACCIOLY   42:37
+Right.
+And that's the reason they would like to see, you know, like it shows purchase invoice page 51 but is not like where we check that right and how how do we troubleshoot like you know and then they say well the the log right, what is the meaning of those so.
+
+Maylon Perez   42:54
+Yeah.
+Yeah, maybe Microsoft data is, you know, Microsoft message is not super clear.
+As always, bad.
+Yeah.
+So my my my suggestion is when there is like a performance issue and you know where is you know where the performance is.
+I mean, which page could just go to the IT telemetry and filter by the table ID?
+I mean just type like for example if you go back to to telemetry, you actually know the purchase English 38 you can just like 38 right there to see if there is something right there.
+38 Yeah, so the average for this page, which is the purchase invoice is ABS balance the right table to create this one.
+But this is this is this is that in?
+Here you are using D can you click on the pages it is in the in the in the.
+To see all the pages list he has been in the the are hide it, you click on the.
+The left side is.
+Yeah, right there.
+You pays performance.
+Can you just switch to let me see.
+Stafford, can you switch to the the the T1-T2PT Pte performance?
+I mean that one we wanted to check.
+
+Grant Brimhall   44:35
+So it if I could interject real quick on this one, I'm looking at the error log that I'm Nate pasted into the into the chat.
+
+Elsie ACCIOLY   44:45
+Mm-hmm.
+
+Grant Brimhall   44:46
+That just going backwards is down at the bottom.
+It started with like you found purchase invoice page 51 and it looks like somebody.
+
+Elsie ACCIOLY   44:56
+Mm-hmm.
+
+Grant Brimhall   45:00
+Umm.
+If I can take the screen per minute and so you can, you can see what I'm.
+
+Nate ALLRED   45:04
+Yeah.
+
+Grant Brimhall   45:08
+You you kind of have to work from the bottom up and so it looks like.
+Starting so someone was on page 51 and they clicked the preview on Action Button, right is what I'm showing there and then based on that they ran in the code unit 91 they ran the preview function and based on that that ran the job journal Post Preview which ran another job or general journal post that look almost looks the same.
+
+Elsie ACCIOLY   45:23
+Mm-hmm.
+Yeah.
+
+Grant Brimhall   45:44
+Ohh preview start as opposed to this one was just preview.
+Anyway, you get all the way back up and eventually it's getting to the job Ledger entry where it tries to get the last number and then it comes into this find record management and get the last entry number, find record management, get the last entry value.
+
+Elsie ACCIOLY   45:50
+Mm-hmm.
+
+Grant Brimhall   46:09
+It's eventually this one that gave up.
+It was trying to apply some security filter in a finally says hey sorry I can't do what you're asking.
+Job Ledger entry because someone else is busy using that right now, so it it wasn't necessarily, you know purchase invoice page 51 and anybody could have done something anywhere that would have it if they wanted access to job Ledger entry.
+
+Elsie ACCIOLY   46:24
+Right.
+
+Grant Brimhall   46:40
+That this would have come back and.
+And you know, giving you an error.
+So what I've seen in telemetry is hopefully in in we're really kind of getting in the weeds, but to troubleshoot this there would be.
+Some kind of activity, I don't know if it's this ID or not, but in in the telemetry itself there would be a session ID that has several events or several records inside the telemetry that would kind of give you a bird's eye view and one of them.
+And when you dive into it, it will.
+It would say who is the person or who?
+What was the process that was currently updating?
+Uh job Ledger entry and so it's really this is the process that we'd want to do some investigation on to see.
+Hey did why was job Ledger entry?
+What's the word I'm looking for?
+What what?
+
+Elsie ACCIOLY   47:45
+Locked.
+
+Grant Brimhall   47:45
+Why was job?
+Yeah.
+Locked.
+Why was it locked and so occupied that the person coming in here trying to do a preview action couldn't?
+
+Elsie ACCIOLY   47:54
+Mm-hmm.
+And what what should it be?
+
+Maylon Perez   47:55
+Yeah, and.
+
+Grant Brimhall   47:56
+At.
+
+Elsie ACCIOLY   47:57
+The next step, if we right?
+
+Grant Brimhall   47:58
+And I and I I don't know this.
+Yeah, I don't know that this dashboard will well dive into that.
+It it it?
+
+Maylon Perez   48:07
+Yeah, maybe not the last part, but we we can use KQL queries.
+I mean just to add what?
+
+Grant Brimhall   48:11
+Yes, yes, go ahead and show again whoever was had this screen.
+
+Maylon Perez   48:13
+Yeah, just to add what?
+Yeah.
+
+Nate ALLRED   48:16
+I can do that.
+
+Maylon Perez   48:20
+And just to add what Grant says, I know what that error is.
+I think I I I'm pretty sure what the error is.
+This error happened but didn't say that you can.
+You can save your changes because it's actually updated by the different record.
+It means that the same user could have multiple tab tab open like I can open 3 tab for the purchase invoice and when when I try to to safety changes or plus something it will allow me because it seems to be updated by the different section that actually.
+So if you go to business central, by the way, who is face this it?
+
+Nate ALLRED   48:59
+Where was that?
+
+Maylon Perez   49:00
+Who is facing this is with what was the user that is facing that error message.
+
+Nate ALLRED   49:06
+It's just a user here, just a business heral user.
+
+Maylon Perez   49:11
+OK, so if you go to to to the admin portal, you will probably see multiple sessions for that user.
+So if you go to that with the admin portal.
+And then go to the production environment and go to the sections.
+There will be more than one session for the same user, so if you if you Scroll down to the user.
+
+Elsie ACCIOLY   49:35
+And you know who was right to search by the person name?
+
+Nate ALLRED   49:38
+Yeah, this one on Friday.
+So it might not be relevant now, but yes.
+
+Maylon Perez   49:42
+Yeah.
+So when that error message specific error happened, you can you just need to cancel the extra setting like I can have like a if you see the there will be user that have more than one setting open.
+
+Elsie ACCIOLY   49:43
+But.
+
+Grant Brimhall   49:54
+Yeah.
+
+Nate ALLRED   49:54
+OK.
+
+Elsie ACCIOLY   49:54
+And and and.
+
+Grant Brimhall   49:54
+And and if if you also click on show session details up at the top.
+
+Maylon Perez   49:54
+And.
+
+Grant Brimhall   50:00
+This can tell you, yeah, this can tell you if people are are locking others.
+
+Elsie ACCIOLY   50:01
+And we set a date.
+
+Grant Brimhall   50:08
+I I don't know if you can.
+
+Nate ALLRED   50:11
+What we were OK.
+
+Grant Brimhall   50:11
+Maylon explain how that some of these things work, but.
+
+Maylon Perez   50:15
+Yeah.
+
+Nate ALLRED   50:16
+We've been seeing this error probably enough that we I don't think it's actually people using multiple browser sessions.
+
+Elsie ACCIOLY   50:24
+So let's go through.
+
+Nate ALLRED   50:24
+I I don't know that for sure, but.
+
+Elsie ACCIOLY   50:26
+Let's let's go through here.
+Right.
+What what means grant all these columns?
+What is the hair that can you scroll up like entry operation entry object, right current.
+
+Grant Brimhall   50:35
+What?
+Yeah.
+What?
+What?
+When it's when it's NA, that's essentially within the last second or two because it's kind of querying people status instantly.
+That that means the person is it's just sitting on a page doing nothing.
+
+Elsie ACCIOLY   50:53
+Mm-hmm.
+
+Grant Brimhall   50:53
+As opposed to those who are like the easiest one is service JT CRM.
+You can see right now they're in the middle of running a a job queue.
+They've kicked off some kind of job job queue entry.
+The person below that case stubs he's sitting on job planning lines and he's yeah.
+
+Elsie ACCIOLY   51:12
+Can you?
+I'm sorry.
+Can you explain again these on run kick off?
+How did you see that?
+
+Nate ALLRED   51:21
+Right there.
+
+Elsie ACCIOLY   51:22
+Is all run right, is running right.
+
+Grant Brimhall   51:24
+Yeah.
+Yep.
+So so if it's probably finished now, but if we went to the job queue entries page, we would probably see a job that is in the status of in progress that corresponds to this entry right here.
+
+Elsie ACCIOLY   51:39
+OK. Mm-hmm.
+
+Grant Brimhall   51:41
+Can can you open current object?
+Can you make that wider?
+Yeah.
+OK, so the I mean this doesn't give us a ton of details, but it's basically saying that so case stubs he's sitting on the job planning lines page.
+I'm not sure if he's in the middle of an edit or or what he's doing but.
+
+Maylon Perez   51:59
+Listed.
+
+Grant Brimhall   52:02
+The the those page ones are fairly innocuous, but the ones would you pay attention to or the on runs?
+Or if somebody's in the middle of a report, so if you Scroll down, I don't know if there are any reports that are. Yeah.
+So there there was one.
+We just go back up right here so reports can, if a report is poorly tuned, a if somebody's running along report that puts a lock on a table.
+That could be a culprit.
+Umm, so looking at this these sessions, this is your basic first quick and dirty hey is there someone that's been has as the one I see most often is general Ledger entries.
+Somebody's doing some posting or something, but if if we had come here, you know fairly quickly after that person had sent.
+That error message you might have seen someone in here working on, you know, posting a big job or I I.
+I'm not sure what we would expect, but I would expect it to see somebody doing something here with job Ledger entry.
+
+Elsie ACCIOLY   53:15
+Yeah.
+So let me ask you something, right.
+So can you scroll up? Nate, please.
+So we have the login direction right, but it is a mean the the the action duration right?
+
+Nate ALLRED   53:24
+Right.
+
+Grant Brimhall   53:24
+Yeah.
+No.
+
+Elsie ACCIOLY   53:29
+It's just when the user log.
+
+Grant Brimhall   53:29
+Nope, that's right.
+
+Elsie ACCIOLY   53:35
+And.
+
+Nate ALLRED   53:36
+These these are all user accounts.
+What about the like service principles that are connecting to that that the applications or web services?
+So if there's a web service endpoint they're running that is doing a lot of data, if that could be the culprit of of walking, but it's not gonna show here.
+
+Grant Brimhall   53:52
+No, it would show here because it would it.
+
+Elsie ACCIOLY   53:52
+Is not safe account subset country.
+You see that is the one for JourneyTEAM interim.
+
+Nate ALLRED   53:55
+The.
+It's.
+Well, that's a that's an actual user account.
+So those that's different.
+
+Grant Brimhall   54:04
+But it so if if you go go back into BC and anybody using.
+A A web client request will either come through.
+Yeah, if you could click on that and go to just type in entra ENTRA.
+Yep, it it'll either be one of these users, so each of these is assigned to username, and so if somebody's using one of these paths into business central, you would see their user and and I I think in that yeah, go ahead and click back on that.
+Umm, I don't.
+I I think it might say either Italy say background client or web service client, I'm I'm not sure what all the options are.
+
+Elsie ACCIOLY   54:46
+Background client right?
+
+Grant Brimhall   54:49
+Yeah, but yeah, you, you, you, you will see you will see an entry in here for those users or I, I don't know if you have users connecting.
+
+Elsie ACCIOLY   54:49
+Like background client.
+What is?
+What is that user big number?
+
+Nate ALLRED   54:58
+That's.
+
+Elsie ACCIOLY   55:00
+Can you see it?
+
+Grant Brimhall   55:01
+Yeah.
+
+Elsie ACCIOLY   55:03
+What is that?
+
+Nate ALLRED   55:05
+Uh, those are generally JourneyTEAM.
+
+Elsie ACCIOLY   55:05
+User EPFT like yeah, this one.
+
+Maylon Perez   55:09
+To be guided, yes.
+I don't know who is that actually in see if I can check.
+Maybe we can check into the users you got your grandfather your message user.
+
+Grant Brimhall   55:22
+Uh, no, I'm not in.
+I'm not in right now.
+
+Maylon Perez   55:26
+Alright, maybe I don't know.
+Maybe Richard can have this list, but yeah, that's the thing.
+
+Nate ALLRED   55:29
+So what it is interesting because one of these is he being used a lot.
+So this one right here, this CAD link one right here.
+It's I think it's a upward of maybe 30 people are using this, but it doesn't show anywhere here.
+
+Elsie ACCIOLY   55:49
+Can you search here?
+
+Nate ALLRED   55:49
+No.
+
+Elsie ACCIOLY   55:50
+There is a search.
+
+Nate ALLRED   55:51
+Well and search by browser but.
+
+Elsie ACCIOLY   55:56
+Well.
+
+Maylon Perez   55:58
+Yeah.
+I think what, what?
+What?
+What Brian was saying, like all these, I mean extra application E that is running the background.
+So has this background client.
+It looks like that is that the right grant?
+
+Nate ALLRED   56:12
+OK.
+
+Grant Brimhall   56:14
+Yeah, I mean, but I mean most of those, they come in and out so fast.
+You, you gotta.
+
+Elsie ACCIOLY   56:20
+Yeah.
+
+Grant Brimhall   56:20
+I mean you you gotta click refresh to to, you know, to catch it.
+
+Nate ALLRED   56:21
+OK.
+
+Grant Brimhall   56:26
+But, but if there's one that's stalling for you know, 5 minutes, then sure, you would see it here, but most most of the web service clients just go in and out quickly.
+
+Nate ALLRED   56:31
+Sure.
+
+Elsie ACCIOLY   56:32
+Yeah.
+Yeah, my takeaway, right.
+
+Nate ALLRED   56:36
+OK.
+But that's where the telemetry would come in handy, right?
+
+Grant Brimhall   56:41
+Yeah, because yeah.
+
+Elsie ACCIOLY   56:41
+Yeah.
+
+Grant Brimhall   56:42
+So so back back on the summarized telemetry, you can see some of those web service hits and you can see the ones that are taking a long time.
+
+Elsie ACCIOLY   56:51
+Yeah.
+So might take away from from.
+You know, this meeting that was great.
+Like we need some time to to digest all these information, right?
+The the telemetry app and those and it will be great.
+I don't know how we can do that as soon as we see a problem, if we can reach out one of you and then trying to just one time like you know go through with us, it will help a lot.
+
+Maylon Perez   57:14
+It's OK.
+Yeah, I mean like.
+
+Elsie ACCIOLY   57:20
+And.
+
+Maylon Perez   57:24
+If you have any issue like me, you are waiting some performance issue or something like that.
+Just let us know.
+I can.
+You know, we can ask we as I cannot access to your telemetry, I can we can get into a call and I can try to walk you through what to check.
+
+Elsie ACCIOLY   57:38
+Yeah.
+
+Maylon Perez   57:38
+Not always.
+The dashboard will have the answer because you know it's it's it's it's limited by what we build, like what pages are built that Ashford.
+But using cake will queries tonight, we can try to get more if you see a instead of clicking dash for the in the left side you there is like a options that says or a function that says query right there.
+
+Elsie ACCIOLY   58:03
+Mm-hmm.
+So on the.
+
+Maylon Perez   58:05
+If you click on there what?
+
+Elsie ACCIOLY   58:07
+Below home below home that query.
+
+Maylon Perez   58:09
+Yeah, alright.
+OK.
+
+Elsie ACCIOLY   58:12
+Yeah.
+
+Maylon Perez   58:12
+Just to the left or left, Nate left the left.
+
+Elsie ACCIOLY   58:16
+The main menu, but the main menu Nate below home query.
+
+Maylon Perez   58:22
+And you go.
+
+Nate ALLRED   58:22
+Sorry.
+
+Maylon Perez   58:22
+Yeah, it's yeah.
+If you have like a new cake will carry, you can go and run for it.
+I don't know Grant if you have actually something like like a two per basic query then they can run to check something.
+
+Elsie ACCIOLY   58:27
+Yeah.
+Yeah.
+
+Maylon Perez   58:33
+But yeah, you can just basically, you know run that.
+
+Elsie ACCIOLY   58:34
+Yeah. That's great.
+Yeah, that's great.
+We, we we need, you know, just time to digest all this information the the app is great.
+We need to learn what we already have built in right and and then learn how to do that.
+
+Maylon Perez   58:47
+Yeah, but.
+
+Elsie ACCIOLY   58:49
+That explanation grant that you share with us.
+That was great too.
+Uh, and you know, it's like catching up, right?
+How busy works and how we can see those things?
+It'll be great if we see a problem and we're trying to reach out one of you and and trying to do together.
+So I think this is how you learn, right?
+So it would be great if it's possible.
+
+Maylon Perez   59:14
+We OK.
+Yep.
+So again, if you have any question or you want to learn more, just let us know.
+We can try to get to a call and try to explain more about this.
+
+Elsie ACCIOLY   59:26
+Yeah, I will try to set up mine.
+My account for now it will be an 8 in May and we will kind of spend some time together to, you know, learn the the tool and see.
+And yeah, later we reach out of both of us together, probably beginning when we see something a little be a good one and it's like I do get it right.
+It happened Friday and users using all the time the weekend, so it's like at the bottom of all logs and you know, it's really hard to to to find.
+So the best ways when it happens is on the top of the logs.
+
+Maylon Perez   1:00:07
+Yeah.
+And Nate, if I mean if you want, you can share this task for has it's actually connected to your to your telemetry app.
+So, Elsie, that doesn't have to, you know, go to the data source and get the subscription ID.
+You can just go to the file the other way, the other one.
+Time is not in there export dashboard, so this dashboard that you will Support are already has a the connection to your.
+
+Elsie ACCIOLY   1:00:35
+The the right one.
+That's I love it.
+
+Maylon Perez   1:00:36
+Yeah, yeah.
+
+Elsie ACCIOLY   1:00:38
+I I like it.
+
+Maylon Perez   1:00:38
+So just perfect.
+
+Elsie ACCIOLY   1:00:43
+He is.
+Yeah, I I will.
+I will rely on late.
+
+Maylon Perez   1:00:51
+The browser.
+
+Elsie ACCIOLY   1:00:52
+I'm not good on that.
+OK, let me see if I I can do it.
+I think we can figure out, right, Nate, if I have any issue.
+
+Nate ALLRED   1:01:02
+Yeah.
+Yep, we can do that.
+You won't.
+You won't.
+
+Elsie ACCIOLY   1:01:06
+Bye.
+
+Maylon Perez   1:01:07
+All right.
+So if there is anything else, I think we'll be to go, right?
+
+Elsie ACCIOLY   1:01:13
+Yes, thank you so much for the time and explain to them.
+
+Nate ALLRED   1:01:16
+Yep.
+
+Maylon Perez   1:01:16
+Sure.
+
+Elsie ACCIOLY   1:01:17
+We really appreciate that.
+
+Maylon Perez   1:01:19
+Thank you, baby.
+
+Elsie ACCIOLY   1:01:19
+So tell me, what is the best way to reach out directly Milan and Grant when we find a something we can just chat and see if you guys are available one of you?
+
+Maylon Perez   1:01:20
+For years.
+
+Grant Brimhall   1:01:30
+Yeah.
+Do we have access to this application insights resource or or what?
+What subscription is this on?
+And if you know if we're not available right away, do you want us doing a little research for you on this or do you just wanna do it together or what?
+
+Elsie ACCIOLY   1:01:48
+Well, we wanted together because we want to learn.
+
+Grant Brimhall   1:01:48
+Because I I I don't know if we can see this.
+Yeah.
+Yeah, yeah, yeah, yeah.
+
+Elsie ACCIOLY   1:01:52
+Right.
+So it's like more learning, you know, more learning section like hey, how do you do what's you know and kind of showing the path and we can kind of move from there then asking you to troubleshoot. Right.
+
+Grant Brimhall   1:02:05
+Yeah, yeah.
+
+Elsie ACCIOLY   1:02:06
+So that's the reason we wanna be together.
+
+Maylon Perez   1:02:07
+It it, it will be great, like if we have access to this task for because I can, you know, try to find first in my side and then we can get into a call and I can show you my findings like it would be easier for you to learn in Japan.
+We also to travel to if you can put.
+Yeah.
+Give us access to these telemetry app will be super awesome.
+And yeah, we can also do that to a call.
+
+Elsie ACCIOLY   1:02:33
+Yeah, yeah, yeah.
+
+Maylon Perez   1:02:35
+But yeah, I mean like.
+
+Nate ALLRED   1:02:35
+OK.
+
+Elsie ACCIOLY   1:02:38
+Yeah, we will.
+You know, it's pretty new, right?
+Busy for us and we are figuring out everything so.
+Umm, yeah.
+
+Maylon Perez   1:02:46
+Why?
+
+Elsie ACCIOLY   1:02:49
+So let me ask you something.
+
+Maylon Perez   1:02:49
+Yeah.
+
+Elsie ACCIOLY   1:02:50
+When you say that we should add to favorites because it will erase all the time like I just didn't appear.
+It's interesting.
+
+Maylon Perez   1:03:04
+Yeah, like I mean a been honest, I normally build the dashboard in, in our tenant and then I just connected through the customer environment.
+So we can have access or give management safely to limit you for the client.
+Normally we normally customer doesn't know what telemetry is or how to use it.
+They only, I mean then we we would like.
+I mean we we always recommend to have it because we can track each of us in a better way, like in more deeply investigation.
+Bad guy in that case has we don't have access to your application.
+We we cannot access to your telemetry that tree app data.
+So yeah, right now the unique way to do it is going to you into a call and then picture this window stuff.
+But yeah, so I don't know.
+Grant do we have a or maybe Morgan?
+You know that question?
+Do we have a admin relationship?
+I'm sorry.
+Planning relationship.
+Now you see the delegate admin.
+
+Elsie ACCIOLY   1:04:08
+You.
+Yeah, you you do guys have that? Yeah.
+
+Grant Brimhall   1:04:12
+We we we do the the the only the only challenge I've seen and I just may need to ask our IT team for help but when often I will log in as delegated admin I will go to your subscriptions and the subscriptions and the resources aren't shared with me.
+
+Maylon Perez   1:04:13
+Alright.
+
+Grant Brimhall   1:04:29
+So so none of us or yeah.
+
+Elsie ACCIOLY   1:04:32
+Yeah.
+
+Nate ALLRED   1:04:32
+I I can I can share.
+
+Elsie ACCIOLY   1:04:33
+And we can you can do and we can do together.
+Don't worry, don't worry.
+
+Grant Brimhall   1:04:35
+OK.
+Yeah. OK.
+
+Elsie ACCIOLY   1:04:36
+Don't worry about that, right?
+I I like the idea we do together.
+So because the goal is that we we get the knowledge right and we can walk and then yes, so it's just the fact that we we we never did before and you know learning right how we monitor how we check and how we can do fast that yeah we will figure don't worry we we you guys don't need to to be ready for now you know we will I think the the the the biggest ask is like can we chat can we talk with you guys when we need and then you know it's like ohh let's.
+
+Maylon Perez   1:05:01
+OK.
+
+Grant Brimhall   1:05:11
+Yeah.
+
+Elsie ACCIOLY   1:05:14
+Reschedule meeting for one week and then it's late, right?
+And it's to be like when it happens and then we need like just chat and say, hey, Grant, hey, Maylon, are you guys you know as they both can you jump in really quick and in one hour like you know not waiting for the next day but not big deal.
+
+Grant Brimhall   1:05:18
+Yeah.
+Yeah, yeah.
+I I I think if if you if you use our Support task, Milan is on the Support test so he sees those right away so he can.
+
+Maylon Perez   1:05:36
+Yeah.
+
+Elsie ACCIOLY   1:05:37
+Yeah.
+
+Nate ALLRED   1:05:38
+You know.
+
+Elsie ACCIOLY   1:05:38
+Do you know Nate how to use that?
+
+Maylon Perez   1:05:39
+Yeah.
+
+Elsie ACCIOLY   1:05:40
+I even don't know how how it works.
+
+Morgan Best   1:05:42
+Yeah, Grant, they probably don't know.
+So you include Support at journeyteam.com and Maylon is actually like the first line of defense for ERP.
+
+Maylon Perez   1:05:52
+Alright.
+
+Elsie ACCIOLY   1:05:53
+OK.
+Did you get that name? Awesome.
+
+Nate ALLRED   1:05:58
+Yep.
+
+Morgan Best   1:05:59
+But native you include me and supports not on there.
+I'll tag them in there, so just include me and I'll make sure if you forget.
+
+Nate ALLRED   1:06:07
+OK.
+
+Elsie ACCIOLY   1:06:08
+OK.
+Yeah, that's great.
+And I.
+I expect to see, you know, we need like just one or two when happens.
+So we can kind of learn a little bit with you guys.
+I think this is the fastest way to learn, but then yeah, I'm not so worried about it.
+I'm sure we will figure out and you guys are great.
+Thank you so much for the the the help in the training and going through with us.
+I really appreciate that.
+
+Maylon Perez   1:06:37
+You're welcome.
+Thank you so much for your.
+
+Grant Brimhall   1:06:38
+Sure.
+Our our pleasure.
+
+Elsie ACCIOLY   1:06:41
+They make 10 question.
+
+Grant Brimhall   1:06:42
+OK.
+
+Nate ALLRED   1:06:45
+Nope.
+
+Elsie ACCIOLY   1:06:46
+OK, he's super excited.
+
+Nate ALLRED   1:06:48
+Yep.
+
+Maylon Perez   1:06:50
+How are yours?
+
+Elsie ACCIOLY   1:06:52
+OK.
+
+Maylon Perez   1:06:52
+Alright, thank you so much guys.
+Thank you for your note.
+Have a good day.
+
+Morgan Best   1:06:55
+Things around.
+
+Elsie ACCIOLY   1:06:55
+Thanks guys.
+Thanks everyone.
+
+Grant Brimhall   1:06:56
+Thanks.
+Bye, bye.
+
+Elsie ACCIOLY   1:06:57
+Bye bye.
+
+Maylon Perez   1:06:57
+Thanks, bye.
+
+Nate ALLRED   1:06:59
+Bye.
